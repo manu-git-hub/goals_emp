@@ -1,0 +1,25 @@
+<odoo>
+    <data>
+        <record id="hr_employee_form_inherit" model="ir.ui.view">
+            <field name="name">hr.employee.form.inherit</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <notebook>
+                    <page string="Work Information">
+                        <!-- Existing fields -->
+                    </page>
+                    <page string="Goal">
+                        <field name="goal_ids" mode="tree,kanban"/>
+                    </page>
+                    <page string="Private Information">
+                        <!-- Existing fields -->
+                    </page>
+                    <page string="HR Settings">
+                        <!-- Existing fields -->
+                    </page>
+                </notebook>
+            </field>
+        </record>
+    </data>
+</odoo>
