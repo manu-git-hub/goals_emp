@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-from . import employee_goal
+from . import goal
